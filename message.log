@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "C:\Users\dillo\Desktop\AISearchCMD\searchCMD.py", line 166, in <module>
+    if re.match(r"\d\)+|\d_|+[\u2022,\u2023,\u25E6,\u2043,\u2219]+",line):
+  File "C:\Users\dillo\AppData\Local\Programs\Python\Python38-32\lib\re.py", line 189, in match
+    return _compile(pattern, flags).match(string)
+  File "C:\Users\dillo\AppData\Local\Programs\Python\Python38-32\lib\re.py", line 302, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Users\dillo\AppData\Local\Programs\Python\Python38-32\lib\sre_compile.py", line 764, in compile
+    p = sre_parse.parse(p, flags)
+  File "C:\Users\dillo\AppData\Local\Programs\Python\Python38-32\lib\sre_parse.py", line 948, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "C:\Users\dillo\AppData\Local\Programs\Python\Python38-32\lib\sre_parse.py", line 443, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+  File "C:\Users\dillo\AppData\Local\Programs\Python\Python38-32\lib\sre_parse.py", line 668, in _parse
+    raise source.error("nothing to repeat",
+re.error: nothing to repeat at position 10
